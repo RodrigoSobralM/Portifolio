@@ -1,0 +1,27 @@
+
+.geralHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    box-shadow: 15px 20px 40px 30px rgba(0, 0, 0, 0.275);
+    font-family: "Press Start 2P", cursive;
+    &__navImg {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__list {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+        li {
+            cursor: pointer;
+        }
+    }
+}

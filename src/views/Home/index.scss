@@ -1,0 +1,29 @@
+body {
+    background-color: #5F5FF6;
+}
+
+/* Ocultar a barra de rolagem por padrão */
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+    height: 8px; /* Altura da barra de rolagem (para rolagem horizontal) */
+    display: none; /* Torna a barra de rolagem invisível por padrão */
+  }
+  
+  /* Estilo da barra de rolagem quando o mouse passar sobre ela */
+  ::-webkit-scrollbar:hover {
+    width: 8px; /* Largura da barra de rolagem ao passar o mouse */
+    height: 8px; /* Altura da barra de rolagem ao passar o mouse (para rolagem horizontal) */
+    display: block; /* Torna a barra de rolagem visível ao passar o mouse */
+    background-color: #ccc; /* Cor de fundo da barra de rolagem */
+  }
+  
+  /* Estilo do polegar da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do polegar da barra de rolagem */
+    border-radius: 4px; /* Borda arredondada para o polegar */
+  }
+  
+  /* Estilo do fundo da trilha da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Cor de fundo da trilha da barra de rolagem */
+  }
